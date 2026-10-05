@@ -110,16 +110,16 @@
       </p>
       <p>
         The {{InputEvent}} interface and the {{beforeinput}} and {{input}} event
-        types were previously defined in UI Events [[UI-EVENTS]]. They are now
-        defined by this specification. UI Events continues to define the <a
-        data-cite="uievents#uievent">UIEvent</a> and <a data-cite=
-        "uievents#uieventinit">UIEventInit</a> interfaces that {{InputEvent}}
-        builds on, the <a data-cite=
-        "uievents#eventmodifierinit">EventModifierInit</a> dictionary, the <a data-cite=
-        "uievents#compositionstart">compositionstart</a>, <a data-cite=
-        "uievents#compositionupdate">compositionupdate</a> and <a data-cite=
-        "uievents#compositionend">compositionend</a> event types, and the <a
-        data-cite="uievents#keydown">keydown</a> and <a data-cite=
+        types used to be defined in UI Events [[UI-EVENTS]], and are now
+        defined by this specification. This specification continues to build on
+        UI Events for the <a data-cite="uievents#uievent">UIEvent</a> and <a
+        data-cite="uievents#uieventinit">UIEventInit</a> interfaces that
+        {{InputEvent}} builds on, the <a data-cite=
+        "uievents#eventmodifierinit">EventModifierInit</a> dictionary, the <a
+        data-cite="uievents#compositionstart">compositionstart</a>, <a
+        data-cite="uievents#compositionupdate">compositionupdate</a> and <a
+        data-cite="uievents#compositionend">compositionend</a> event types, and
+        the <a data-cite="uievents#keydown">keydown</a> and <a data-cite=
         "uievents#keyup">keyup</a> event types.
       </p>
     </section>
@@ -255,17 +255,6 @@
                sequence&lt;StaticRange&gt; targetRanges = [];
             };
         </pre>
-        <p>
-          The {{InputEvent}} interface and the {{InputEventInit}} dictionary
-          were previously defined in UI Events [[UI-EVENTS]]. They are now
-          defined by this specification. This specification still builds on UI Events for
-          <a data-cite="uievents#uievent">UIEvent</a>, <a data-cite=
-          "uievents#uieventinit">UIEventInit</a> and <a data-cite=
-          "uievents#eventmodifierinit">EventModifierInit</a>, and for the <a
-          href=
-          "https://www.w3.org/TR/uievents/#default-action">default action</a>
-          [[UI-EVENTS]] of {{InputEvent}} objects.
-        </p>
         <p data-dfn-for="InputEventInit">
           The attributes {{InputEvent/inputType}}, <dfn>data</dfn>,
           <dfn>isComposing</dfn> and <dfn>dataTransfer</dfn> of
